@@ -1,0 +1,22 @@
+{
+  "name": "@idirdev/nginx-gen",
+  "version": "1.0.0",
+  "description": "Generate nginx configuration files",
+  "main": "src/index.js",
+  "author": "idirdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idirdev/nginx-gen.git"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/nginx-gen.test.js"
+  },
+  "bin": {
+    "nginx-gen": "./bin/cli.js"
+  }
+}
