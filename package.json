@@ -18,5 +18,9 @@
   },
   "bin": {
     "nginx-gen": "./bin/cli.js"
+  },
+  "homepage": "https://github.com/idirdev/nginx-gen",
+  "bugs": {
+    "url": "https://github.com/idirdev/nginx-gen/issues"
   }
 }
